@@ -6,4 +6,7 @@ output: pdf_document
 bibliography: mm.bib
 ---
 
-Google Scholar returns, in all, 57 articles that mention the words Mastermind and game in their title. That meager number does not really reflect the interest from all kind of fields this game has arisen. Since 2016, 8 papers have used the words in the title, every one of them with a different approach to solving the game or using it for other purposes, from teaching to psychological evaluation.
+Mastermind [@wiki:mm] is a deduction game where one user has to find out a length-4 or length-6 combinations of colored pegs by adventuring possible combinations and getting answers that tell the user how many pegs, not which ones, are in the right position, and how many got the color right but missed the position.
+
+Google Scholar returns, in all, 57 articles that mention the words Mastermind and game in their title. That meager number does not really reflect the interest from all kind of fields this game has arisen. Since 2016, 8 papers have used the words in the title, every one of them with a different approach to solving the game or using it for other purposes, from teaching [@perucca2018tactile] to psychological evaluation [@hornik2017solution].
+
