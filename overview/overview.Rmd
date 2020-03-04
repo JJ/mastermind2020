@@ -1,0 +1,8 @@
+---
+title: 'The game of MasterMind in 2020: an overview of literature'
+author: "JJ Merelo"
+date: "4 de marzo de 2020"
+output: pdf_document
+bibliography: mm.bib
+---
+
