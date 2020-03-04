@@ -3,7 +3,7 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Roboto|Trade+Winds&display=swap');
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
@@ -15,7 +15,7 @@ body {
   background-color: #fff; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: normal;
   color: #222; }
@@ -46,16 +46,15 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #222;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em; }
+    font-family: "Trade Winds", Helvetica, sans-serif;
+    font-size: 2.5em; }
 
 .reveal h2 {
   font-size: 1.6em; }
@@ -152,14 +151,14 @@ body {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); }
 
 .reveal code {
-  font-family: monospace;
+  font-family: 'Courier Prime',monospace;
   text-transform: none; }
 
 .reveal pre code {
   display: block;
   padding: 5px;
   overflow: auto;
-  max-height: 400px;
+  max-height: 800px;
   word-wrap: normal; }
 
 .reveal table {
