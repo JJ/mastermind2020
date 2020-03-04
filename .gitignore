@@ -13,3 +13,8 @@ css/reveal.min.css
 js/reveal.min.js
 .Rproj.user
 auto/
+*.log
+*.aux
+*.pdf
+*.blg
+*.bbl
