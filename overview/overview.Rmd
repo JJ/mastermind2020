@@ -2,9 +2,7 @@
 title: 'The game of MasterMind in 2020: an overview of literature'
 author: "JJ Merelo"
 date: "4 de marzo de 2020"
-output:
-  pdf_document:
-    keep_tex: true
+output: pdf_document
 
 bibliography: mm.bib
 ---
@@ -25,7 +23,8 @@ However, eliminating white pegs in the answer makes the problem much more diffic
 
 ## Learning and other mental models
 
-At the end of the day, Mastermind is a game; and as in any game, players have to elaborate an strategy to find solutions to the game. Using teaching tools like the ones proposed by Fiore et al. [@fiore2018tactile] will help users create such strategy, at the same time they can understand how to follow an algorithm, in this case Knuth's original algorithm, which uses scoring strategies on the set of feasible combinations to decide which one should be played [@Knuth]
+At the end of the day, Mastermind is a game; and as in any game, players have to elaborate an strategy to find solutions to the game. Using teaching tools like the ones proposed by Fiore et al. [@fiore2018tactile] will help users create such strategy, at the same time they can understand how to follow an algorithm, in this case Knuth's original algorithm, which uses scoring strategies on the set of feasible combinations to decide which one should be played [@Knuth]. A similar solution is offered by [@hornik2017solution], which implements Mastermind in the well known framework Scratch, widely used for teaching programming to kids. Even if it's a relatively complicated problem, implementing it helps students think about how to divide a problem in different parts, and even how to show a nice visual representation of the result, as well as a more analytical view of what's going on under the hood.
+How people solve the game can be used to study cognitive models: [@zhao2018predicting] uses a game similar to MasterMind, called Deductive Mastermind and their results by a group of students, to find out the difficulty of the game; a technique called Dynamic Epistemic Logic, which is based on the elimination of states by updating a model, is used to analyze that. This DEL is similar to an exhaustive search algorithm, which checks out combinations and is, in fact, an interesting strategy as long as you can hold the whole set of strings in memory; these approaches to Mastermind were researched in [@2012arXiv1207]. The fact that, as proved by the paper, this seems the model that's actually used by people (as opposed to another model, called TABL, which reasons based on specific cases), indicates that there would be a limit to the size of Mastermind that could be played successfully by a human; but also that humans follow strategies that can be similar to algorithms, at least for some of them.
 
 
 
