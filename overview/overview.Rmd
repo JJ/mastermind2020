@@ -13,4 +13,8 @@ Mastermind [@wiki_mm] is a deduction game where one user has to find out a lengt
 
 Google Scholar returns, in all, 57 articles that mention the words Mastermind and game in their title. That meager number does not really reflect the interest from all kind of fields this game has arisen. Since 2016, 8 papers have used the words in the title, every one of them with a different approach to solving the game or using it for other purposes, from teaching [@perucca2018tactile] to psychological evaluation [@hornik2017solution].
 
+In general, there are four different axes the investigation related to Mastermind has gone. The first one is trying to solve the game itself. The game, or versions of it, have been generalized to what are called black box optimization problems. The third axe is related to using implementations of the game, or parts of the game, with pedagogic purposes; finally, a fourth axis is related to using the game to approach the way mental models are created. Our focus is on the first, so we will make a small overview of the rest first, to proceed finally to current solutions to the Mastermind puzzle.
+
+
+
 ## References
