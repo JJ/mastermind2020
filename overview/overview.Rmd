@@ -15,6 +15,19 @@ Google Scholar returns, in all, 57 articles that mention the words Mastermind an
 
 In general, there are four different axes the investigation related to Mastermind has gone. The first one is trying to solve the game itself. The game, or versions of it, have been generalized to what are called black box optimization problems. The third axe is related to using implementations of the game, or parts of the game, with pedagogic purposes; finally, a fourth axis is related to using the game to approach the way mental models are created. Our focus is on the first, so we will make a small overview of the rest first, to proceed finally to current solutions to the Mastermind puzzle.
 
+This short overview does not pretend to be an exhaustive guide to the algorithmic world of mastermind; probably the best place to start there is our paper published in 2012 [@2012arXiv1207]. Our intention is rather to show current directions in the algorithmic world of mastermind, and what are the main lines of research in the last 5-7 years and where they originate.
+
+## Black box optimization problems and their relation with Mastermind
+
+In Mastermind, there's a "black box" that tells you the *fitness* of your submitted string by answering with black and white pegs; if we just look at the function itself that returns the answer, our objective will be to get that function to its optimum, that will tell us that we found out the whole combination; however, we don't really know the shape of that function, In the case of mastermind it will be the string difference between the code and our string; but we can generalize that problem to talk about black box optimization when all we know about the function is the result of certain queries. By putting the emphasis on the queries themselves, and how they can be generated once response to those queries is set in, the simple genetic algorithm can be analyzed theoretically (as done initially by Oliveto et al. in [@oliveto2012analysis]) so that lower bounds to the number of queries (evaluations) can be computed; if you consider a variation of mastermind where there are only two colors (red and blue), the answer tells you how many blue pegs are in the right position, and the string to find consists of only blue pegs, there's the relationship between Mastermind and evolutionary algorithms at large.
+
+However, eliminating white pegs in the answer makes the problem much more difficult; at the same time, using shorter alphabets make the problem easier, since the search space is smaller. But at the end of the day, the essential problem of trying to find an optimal sequence of queries that is able to minimize the function is still the same, and it boils down to using queries that are able to extract maximal information from the black box. 
+
+## Learning and other mental models
+
+At the end of the day, Mastermind is a game; and as in any game, players have to elaborate an strategy to find solutions to the game. Using teaching tools like the ones proposed by Fiore et al. [@fiore2018tactile] will help users create such strategy, at the same time they can understand how to follow an algorithm, in this case Knuth's original algorithm, which uses scoring strategies on the set of feasible combinations to decide which one should be played [@Knuth]
+
+
 
 
 ## References
