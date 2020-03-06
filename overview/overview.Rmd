@@ -1,12 +1,13 @@
 ---
 title: 'The game of MasterMind in 2020: an overview of literature'
-author: "JJ Merelo"
+author: "JJ Merelo, University of Granada, jmerelo@ugr.es"
 date: "4 de marzo de 2020"
 output: 
   pdf_document:
     keep_tex: true
-
 bibliography: mm.bib
+abstract: |
+  Since the first attempts to solve algorithmically the game of MasterMind were done by Donald Knuth in the seventies, research on this game has progressed along different axes, theoretical, heuristic, trying to find strategies that are able to find the secret code in a minimal number of moves and, if possible, as fast as possible. In this paper we make an overview of how this research has progressed in the last few year, and give hints on how it will continue in the near future.
 ---
 
 MasterMind [@wiki_mm] is a deduction game where one user has to find out a length-4 or length-6 combinations of colored pegs by adventuring possible combinations and getting answers that tell the user how many pegs, not which ones, are in the right position, and how many got the color right but missed the position.
