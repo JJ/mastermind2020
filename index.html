@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/extra.css">
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/white.css">
+    <link rel="stylesheet" href="css/mm.css">
     
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/monokai.css">
@@ -115,6 +116,29 @@
 	  <h1>MSP is NP complete</h1>
 	  <aside class='notes'>As proved by <a href='https://arxiv.org/abs/cs/0512049'>Stuckman in 2005</a>; there are better bounds today. </aside>
 	</section>
+
+	<section><h1>Let's solve it anyway</h1>
+	  <h2 class='fragment'>As an optimization problem</h2>
+	</section>
+
+	<section>
+	  <h1>Using evolutionary algorithms</h1>
+	</section>
+
+	<section><h1>Two sub-problems</h1>
+	  <h2 class='fragment'>MSP</h2>
+	  <h2 class='fragment'>Minimize draws/queries</h2>
+	</section>
+
+	<section><h1><span class='pinkcircle'>&nbsp;</span> <span class='pinkcircle'>&nbsp;</span> <span class='lightbluecircle'>&nbsp;</span> <span class='yellowcircle'>&nbsp;</span> → <span class='blackcircle'>&nbsp;</span> <span class='blackcircle'>&nbsp;</span></h1>
+	  <h2>&nbsp;</h2>
+	  <h1 class='fragment'><span class='pinkcircle'>&nbsp;</span> <span class='redcircle'>&nbsp;</span> <span class='lightbluecircle'>&nbsp;</span> <span class='greencircle'>&nbsp;</span> → <span class='whitecircle'>&nbsp;</span> <span class='whitecircle'>&nbsp;</span></h1>
+	   <h2>&nbsp;</h2>
+	  <h1 class='fragment'>... and so on</h1>
+
+	  <aside class='notes'>Combination: red,pink, lightblue, lightblue</aside>
+	</section>
+
 	
 	<section><h1>Ingenuity of (master)mind</h1>
 	  <img src='img/partitions.png' alt='Showing how MM scoring works'>

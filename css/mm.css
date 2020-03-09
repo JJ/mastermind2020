@@ -1,0 +1,55 @@
+.lightbluecircle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.redcircle {
+    background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+.greencircle {
+    background: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.yellowcircle {
+    background: yellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+.pinkcircle {
+    background: pink;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+.blackcircle {
+    background: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+.whitecircle {
+    background: lightgray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
